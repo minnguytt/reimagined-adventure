@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiikawa Collection | Apparel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/image/logo-favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    body{
+        overflow-x: hidden;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        font-family: "Comic Neue", cursive;
+        font-style: normal;
+        background-color: rgb(255, 248, 238);
+        margin-top: 80px;
+    }
+  
+    #logo-home{
+        width: 250px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+ 
+    nav.navbar {
+        background-color: rgba(255, 215, 215, 0.983);  
+        width: 100%;
+        position: fixed; 
+        font-weight: 600;
+        top: 0; 
+        left: 0;
+        z-index: 1000;
+        }
+
+    li{
+        margin: 0 20px;
+        max-width: 100%;
+        max-height: 100%;
+        font-size: larger;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(95, 1, 1)
+    }
+    .gif{
+        padding-top:60px;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+    #gif{
+        background-color:antiquewhite;
+        width:60vw;
+    }
+          
+          
+    #h1{
+        font-family: "Chewy", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7vw;
+        color:rgb(88, 9, 9);
+        text-align: center;
+        padding: 0;
+    }
+    
+    .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+.back-to-top.show {
+    opacity: 1; 
+}
+
+.hako{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 90vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:50px;
+    margin:auto;
+    
+}
+
+.subhako {
+    background-color: rgba(248, 231, 222, 0.565);
+    height: 400px;
+    width: 300px;
+    min-width: 30px;
+    min-height: 40px;   
+    border-radius: 9%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subhako img{
+    width:300px;
+    min-width: auto;
+    min-height: auto;
+    
+}
+.subhako p{
+    color:rgb(150, 22, 22);
+    min-width: auto;
+    min-height: auto;
+    text-align: center;  
+    font-size: 18px;
+    line-height: 25px;    
+    margin-top:20px;
+}
+
+.subhako:hover {
+    transform: scale(1.05); /* Khung nổi lên nhẹ */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.099);
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(251, 189, 189);
+}
+
+.socialmedia{
+    width: 100vw;
+    gap:20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(251, 189, 189)
+}
+
+.socialmedia img{
+    width: 30px;
+    
+}
+
+</style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/home.html"><img id="logo-home" src="/image/logo-home.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/mascots.html">Mascots</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/misgood.html">Miscellaneous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/apparel.html">Apparel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/food.html">Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/PC.html">Smartphone</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <div class="gif">
+        <img id="gif" src="/image/chiikawa bán hàng.gif">
+       
+    </div>
+
+    <p id="h1">Apparel</p>
+    <a href="#" class="back-to-top" id="backToTop"><img style="width: 100px;" src="/image/backToTop.png"></a>
+
+    <div class="hako">
+        <div class="subhako">
+            <a href="#">
+                <img src="/image/c1.png">
+                <p>Chiikawa Marshmallow Room Shoes Large Size (Rabbit)</p>
+            </a>
+        </div>
+        <div class="subhako">
+            <a href="#">
+                <img src="/image/c2.png">
+                <p>Chiikawa Room Socks 2-Piece Set (Chiikawa Off-White/Pink)</p>
+            </a>
+        </div>
+        <div class="subhako">
+            <a href="#">
+                <img src="/image/c3.png">
+                <p>Chiikawa Shisa Souvenir Shop T-Shirt Sanshin Sand Beige</p>
+            </a>
+        </div>
+        <div class="subhako">
+            <a href="#">
+                <img src="/image/c4.png">
+                <p>Chiikawa Chiikawa Restaurant Cap Hachiware Stone Blue</p>
+            </a>
+        </div>
+        <div class="subhako">
+            <a href="#">
+                <img src="/image/c5.jpg">
+                <p>CChiikawa Smartphone Compatible Gloves (Hachiware Ivory)
+                </p>
+            </a>
+        </div>
+    
+        
+    </div>
+
+<div class="gif">
+    <img style="width: 40vw;" src="/image/3 con mắm.png">
+</div>
+<div class="footer">
+    <p style="font-size: larger;">
+        <a href="/service.html">Term of Use</a> | 
+        <a href="/privacy.html">Privacy Policy</a> | 
+        <a href="/us.html">About us</a>
+    </p>
+</div>
+<div class="socialmedia">
+    <a href="https://www.instagram.com/maineminguyet/"><img src="/image/Instagram_logo_2016.png"></a>
+    <a href="https://www.facebook.com/profile.php?id=100073016096107"><img src="/image/2023_Facebook_icon.png"></a>
+    <a href="https://www.tiktok.com/@maineminguyet"><img src="/image/TikTok-logo-black-circle-png.png"></a>
+</div>
+
+<div class="footer">
+    <p>Copyright © 2024. All Rights Reserved</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        window.onscroll = function() {
+            let button = document.getElementById("backToTop");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.classList.add("show"); 
+            } else {
+                button.classList.remove("show"); 
+            }
+        };
+      </script>
+      
+
+</body>
+</html>
